@@ -1,0 +1,42 @@
+# Node modules (dependencies) should be installed inside the container
+node_modules
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+jspm_packages/
+
+# Environment variables file
+.env
+
+# Local development artifacts
+.DS_Store
+*.local
+*.swp
+
+# Test files and directories
+coverage/
+*.lcov
+
+# Build directory
+dist/
+
+# Docker-related files
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Git
+.git
+.gitignore
+
+# IDEs and editors
+.idea
+.vscode
+*.sublime-project
+*.sublime-workspace
