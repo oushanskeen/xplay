@@ -52,7 +52,7 @@ const states = {
 }
 
 const testMachine = createMachine({
-  /** @xstate-layout N4IgpgJg5mDOIC5QBc7ILIEMDGALAlgHZgB0symATsgMQByAogBoAqA2gAwC6ioADgHtY+ZPgGFeIAB6IAjADYALCVkcArBwAcWjgGYATB31q1AGhABPRJoDsJJcc36bNzbvm6AnAF9f5wgIQcJKo5Fh4RGCSgsKi4pIyCAC08uZWyfJ+IKEYOATEZBTU0UIiYhJI0oiK+mnWsiqasrYciroczU2aWTnh+aRghBAlseUJiPry8iS6zfI2np6Kih11CKr6JEYc8rJq8vqH+rKyvr5AA */
+  /** @xstate-layout N4IgpgJg5mDOIC5QBc7ILIEMDGALAlgHZgB0symATsgMQByAogBoAqA2gAwC6ioADgHtY+ZPgGFeIAB6IAjABZZJABwB2AEwdZHeQDYArBw761AGhABPRMt0lts1co6rHy-QE5l6gL6-zhAQg4SVRyLDwiMElBYVFxSRkEAFp1ZRJ1AGYM5w4s5Vl3XV1VXXMrZLTXXQKjQ315VVkMvxBQjBwCYjIKamihETEJJGk5dxIS3Xd1QuqnLPV5MsRVMd1FDl1leWzNxRa28M7SMEIIPtjBhMQFtIWFDMz9DNkFDmUlhEcSDPcHjP1ZE5Gtt5L5fEA */
   id: 'testMachine',
   predictableActionArguments: true,
   initial: 'start',
