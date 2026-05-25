@@ -6,7 +6,7 @@ This repo stores a very basic boilerplate code for the model-based testing with 
 
 ```code
 npm install
-npx playwright test ./tests/helloPage.test.js
+npx playwright test ./tests/hello.test.js
 ```
 
 ## Notes:
@@ -53,3 +53,6 @@ const states = {
   }
 }
 ```
+
+Model History Tracker TBA soon.
+![alt text](docs/modelHistoryTracker.gif)
